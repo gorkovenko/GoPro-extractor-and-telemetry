@@ -3,7 +3,7 @@ const gpmfExtract = require('gpmf-extract');
 const goproTelemetry = require(`gopro-telemetry`);
 const fs = require('fs');
 
-const file = fs.readFileSync('GH010053.MP4');
+const file = fs.readFileSync('karma.MP4');
 console.log(file);
 gpmfExtract(file)
   .then(extracted => {
